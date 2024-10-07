@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The First Votes Will Soon Be Cast</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <style>
+        *{
+            margin:0px;
+        }
+        body { margin: 0; }
+        img{
+            display: block;
+            margin:auto;
+            width:100vw;
+            max-width:1440px;
+        }
+        #head, #menu{
+            border-bottom: 0.1px solid #e1e1e1;
+        }
+        #menu{
+            position:sticky;
+            top:0px;
+        }
+        @font-face {
+            font-family: 'Cheltenham-heading';
+            src: url(./fonts/nyt-cheltenham-medium-italics.ttf);
+        }
+        @font-face {
+            font-family: 'Cheltenham';
+            src: url(./fonts/nyt-cheltenham-normal.ttf);
+        }
+        @font-face {
+            font-family: 'Imperial';
+            src: url(./fonts/imperial-normal-500.ttf);
+        }
+        @font-face {
+            font-family: 'Franklin';
+            src: url(./fonts/franklin-normal-700.ttf);
+        }
+        @font-face {
+            font-family: 'Karnak';
+            src: url(./fonts/karnak-normal-400.ttf);
+        }
+
+        h1,h2,h3,p{
+            width:600px;
+            margin:auto;
+            margin-bottom:15px;
+        }
+        h1{
+            font-family:'Cheltenham-heading';
+            font-size:40px;
+            line-height:46px;
+        }
+        h2{
+            font-family: 'Cheltenham';
+            font-size:23px;
+            line-height:30px;
+        }
+        h3{
+            font-family:'Franklin';
+            font-size: 20px;
+            line-height:28px;
+        }
+        p{
+            font-family:'Imperial';
+            font-size:20px;
+            line-height:30px;
+        }
+        a{
+            text-decoration:none;
+            color:black;
+        }
+        #newsletter,#onpolitics{
+            margin:auto;
+            text-align:center;
+        }
+        #newsletter{
+            font-family:'Franklin';
+            font-size:13px;
+            line-height:16px;
+            margin-top:50px;
+        }
+        #onpolitics{
+            font-family:'Karnak';
+            font-size:24px;
+            line-height:34px;
+            margin-bottom:30px;
+        }
+    </style>
+    <link rel="icon" type="image/svg" href="/img/favicon.svg">
+</head>
+<body>
+
+<a href="https://nytimes.com/"><img src="/img/head.png" id="head"></a>
+<img src="/img/menu.png" id="menu">
+
+<a href="https://www.nytimes.com/newsletters/signup/CN">
+<div id="newsletter">NEWSLETTER</div>
+<div id="onpolitics">On Politics</div>
+</a>
+<h1>The First Votes Will Soon Be Cast</h1>
+<h2>As campaigns shift from persuading voters to turning them out, mail voting is in the spotlight.</h2>
+<img src="/img/share.png" id="share">
+
+<div id="illustration"></div>
+<img src="/img/byline.png" id="byline">
+
+    <p>When Krissi Miles, the manager of absentee voting in Tuscaloosa County, Ala., began electronically issuing ballots to military service members yesterday, she was taking a routine step that’s part of a milestone for this election.
+    </p><p>
+    The first ballots have gone out.
+    </p><p>
+    “In just a few minutes, I will start issuing ballots for all the other applicants,” Miles told me over the phone today, very kindly and politely suggesting that I let her return to her work mailing out absentee ballots. “I have anywhere between 1,000 and 1,500, much more than I anticipated.”
+    </p><p>
+    As my little ticker above says, there are officially 54 days left in the fall campaign (count ’em!). But the fact that absentee ballots are going in the mail in Alabama, and that other states will soon follow suit with various forms of absentee, mail or early in-person voting, means that for a growing number of Americans, Election Day is practically here.
+    </p><p>
+    It’s a big deal for the campaigns, one that heralds a shift from simply persuading voters to turning them out. In a narrow election that is best described as a “game of inches,” the pool of voters who can still change their minds is about to start shrinking, because their ballots will be cast.
+    </p><p>
+    It’s also a new season of stress on the election system itself, one that is already being tested by lawsuits that have created complications and uncertainties for the workers who oversee it. At the same time, Donald Trump is stoking doubts about mail voting while his allies are trying to get his supporters to use that method of voting.
+    </p>
+    <h3>Delays from the courts</h3>
+    <p>
+    Michella Huff, the director of elections in Surry County, N.C., had some 544 absentee ballots just about ready to go out by mail on Friday — when that process was supposed to begin in North Carolina — but then the courts intervened.
+    </p><p>
+    On Monday, the State Supreme Court ruled that Robert F. Kennedy Jr.’s name needed to be removed from the ballots, meaning that every one of the complex packages Huff and her team prepared will need to be redone.
+    </p><p>
+    That probably means destroying the old ballots, Huff said, printing new ones, and dealing with the distrust of voters primed by false stories about election fraud.
+    </p><p>
+    “I had somebody send me a text: ‘I want to be present when the ballots are going to be destroyed, when’s that going to be?’” Huff said. “It’s one more piece to add to the layers of distrust about the process.”
+    </p><p>
+    In Pennsylvania, another issue over the status of third-party candidates has also slowed election workers’ ability to prepare mail ballots, said Forrest Lehman, the director of elections in Lycoming County.
+    </p><p>
+    “We can’t do a thing. We need to know exactly who is on and not on the ballot,” Lehman said. “If you work too far ahead, you’ll just end up crying into your beer later when the ballot changes.”
+    </p>
+    <h3>Falsehoods from the former president</h3>
+    <p>
+    The kind of distrust Huff and other election workers have faced has been stoked for years by Trump and his allies, who have claimed — incorrectly and without evidence — that mail and absentee voting are rife with cheating.
+    </p><p>
+    Trump picked that back up over the weekend, when he posted on his social media site that a significant percentage of mail-in ballots in Pennsylvania were “fraudulent.”
+    </p><p>
+    It was a spurious claim — there are no ballots in Pennsylvania yet in the mail — and one that Lara Trump, the co-chair of the Republican National Committee and Mr. Trump’s daughter-in-law, struggled to respond to in an interview on CNN.
+    </p><p>
+    She said the former president was referring to the 2020 election — in which case the claim would still be untrue — and insisted that her party wanted voters to cast ballots by mail and in person either early or on Election Day.
+    </p><p>
+    “Donald Trump very much wants every Republican voter to vote however they feel most comfortable,” she said.
+    </p>
+    <h3>And then there’s the mail</h3>
+    <p>
+    Election officials are already expressing worries about whether mail ballots will be delivered on time, especially as Election Day draws closer. On Wednesday, a bipartisan group of election officials sent a letter to the U.S. Postal Service to lay out their concerns.
+    </p><p>
+    “We implore you to take immediate and tangible corrective action to address the ongoing performance issues,” the letter said, adding, “Failure to do so will risk limiting voter participation and trust in the election process.”
+    </p><p>
+    Election officials said their concerns were rooted in their experience receiving completed mail ballots well after they were postmarked. Officials have long urged voters to request and return mail ballots as early as they can — but they worry that their efforts won’t be enough.
+    </p><p>
+    “There is no amount of proactive communication election officials can do to account for U.S.P.S.’s inability to meet their own service delivery timelines,” the letter said.
+    </p>
+    
+<img src="/img/writerinfo.png" id="writerinfo">
+<img src="/img/prefoot.png" id="prefoot">
+<img src="/img/foot.png" id="foot">
+
+<script>
+    const numEyes = 12; 
+    const numEyes2 = 16;
+    const numEyes3 = 20;
+    let eyes = [];
+    let angle = 0; 
+    let circleColor = 'blue'; 
+    let circles = []; 
+    let rotationCount = 0; 
+    let envelope; 
+
+    function preload() {
+        envelope = loadImage('/img/envelope.png');
+    }
+
+    function setup() {
+        createCanvas(innerWidth, innerHeight).parent("illustration");
+        noStroke();
+        frameRate(60); 
+        textAlign(CENTER, CENTER); 
+        createEyes(numEyes, 100, 20);
+        createEyes(numEyes2, 140, 30);
+        createEyes(numEyes3, 200, 45);
+    }
+
+    function draw() {
+        background(255); 
+        
+        updateCircles(); 
+        drawCircles(); 
+
+        drawColorChangingCircle();
+        drawPieSection();
+
+        let centerX = width / 2;
+        let centerY = height / 2;
+
+        let handX = centerX + cos(angle - HALF_PI) * 260;
+        let handY = centerY + sin(angle - HALF_PI) * 260;
+
+        for (let eye of eyes) {
+            eye.update(handX, handY);
+            eye.display();
+        }
+
+        drawClockHand();
+
+        angle += 0.02; 
+
+        if (angle >= TWO_PI) {
+            angle -= TWO_PI; 
+            rotationCount++; 
+            circleColor = (circleColor === 'red') ? 'blue' : 'red';
+        }
+
+        fill(255);
+        strokeWeight(4);
+        textSize(17);
+        text('days', centerX, centerY + 22);
+        textSize(50);
+        text('54', centerX, centerY - 4);
+    }
+
+    function updateCircles() {
+        for (let circle of circles) {
+            circle.radius += 1; 
+        }
+        if (frameCount % 60 === 0) {
+            circles.push({ radius: 240, color: (circles.length % 2 === 0) ? 0 : 50 });
+        }
+    }
+
+    function drawCircles() {
+        let x = width / 2;
+        let y = height / 2;
+        for (let circle of circles) {
+            fill(circle.color);
+            ellipse(x, y, circle.radius * 2, circle.radius * 2);
+        }
+    }
+
+    function createEyes(num, radius, size) {
+        for (let i = 0; i < num; i++) {
+            let angle = TWO_PI / num * i;
+            let x = innerWidth / 2 + cos(angle) * radius;
+            let y = innerHeight / 2 + sin(angle) * radius;
+            eyes.push(new Eye(x, y, size, i));
+        }
+    }
+
+    class Eye {
+        constructor(tx, ty, ts, index) {
+            this.x = tx;
+            this.y = ty;
+            this.size = ts;
+            this.angle = 0.0;
+            this.index = index;
+        }
+
+        update(handX, handY) {
+            this.angle = atan2(handY - this.y, handX - this.x);
+        }
+
+        display() {
+            push();
+            translate(this.x, this.y);
+            stroke(0);
+            strokeWeight(2);
+            fill(255); 
+            ellipse(0, 0, this.size, this.size); 
+
+            rotate(this.angle);
+            fill(this.index % 2 === 0 ? 'red' : 'blue');
+            ellipse(this.size / 4, 0, this.size / 2, this.size / 2); 
+            pop();
+        }
+    }
+
+    function drawClockHand() {
+        push();
+        translate(width / 2, height / 2);
+        rotate(angle - HALF_PI);
+        stroke(0);
+        strokeWeight(2);
+        fill(255);
+        rect(0, -5, 260, 10); 
+        fill(200);
+        ellipse(0, 0, 90, 90); 
+        imageMode(CENTER); 
+        image(envelope, 316, 0, 120, 90); 
+        pop();
+    }
+
+    function drawColorChangingCircle() {
+        stroke(0);
+        noFill();
+        strokeWeight(2);
+        ellipse(width / 2, height / 2 - 335, 110, 110);
+        ellipse(width / 2, height / 2 - 335, 86, 86);
+        strokeWeight(10);
+        stroke(210);
+        ellipse(width / 2, height / 2 - 335, 98, 98);
+        stroke(0);
+        strokeWeight(2);
+        fill(170);
+        rect(width / 2 - 20, height / 2 - 310, 40, 70);
+        rect(width / 2 - 30, height / 2 - 340, 60, 30);
+        ellipse(width / 2, height / 2, 556, 556);
+        fill(210);
+        ellipse(width / 2, height / 2, 544, 544);
+        fill(170);
+        ellipse(width / 2, height / 2, 520, 520);
+        fill(circleColor);
+        ellipse(width / 2, height / 2, 500, 500);
+    }
+
+    function drawPieSection() {
+        let pieColor = (rotationCount % 2 === 0) ? 'red' : 'blue'; 
+        let startAngle = 0;
+        let endAngle = angle; 
+
+        push();
+        translate(width / 2, height / 2);
+        fill(pieColor);
+        stroke(0);
+        strokeWeight(2);
+        arc(0, 0, 500, 500, startAngle - HALF_PI, endAngle - HALF_PI, PIE);
+        pop();
+    }
+
+    function windowResized() {
+        resizeCanvas(windowWidth, windowHeight);
+    }
+</script>
+</body>
+</html>
